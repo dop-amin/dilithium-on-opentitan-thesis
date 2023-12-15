@@ -1,0 +1,11 @@
+services:
+  dilithium-on-opentitan:
+    # build: .
+    image: dilithium-on-opentitan-image
+    container_name: dilithium-on-opentitan
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    volumes:
+      - type: bind
+        source: ./dilithium_benchmarks
+        target: /home/ubuntu/dilithium_benchmarks
