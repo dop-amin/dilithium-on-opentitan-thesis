@@ -11,7 +11,10 @@ The contents in this repository:
   is a fork from the [official OpenTitan
   repository](https://github.com/lowRISC/opentitan) and includes modifications
   to the OTBN simulator, instruction set, and our implementation of Dilithium,
-  as well as the setup for testing and benchmarking said implementation.
+  as well as the setup for testing and benchmarking said implementation. The
+  code related to Dilithium can be found inside
+  `./opentitan/sw/otbn/crypto/handwritten` as well as
+  `./opentitan/sw/otbn/crypto/tests`.
 - [`Dockerfile`](https://github.com/dop-amin/dilithium-on-opentitan-thesis/blob/main/Dockerfile)
   can be used to build the container for reproducing our results. In the build
   process, the aforementioned submodule is cloned into the container and the
