@@ -2,6 +2,10 @@
 
 This repository accompanies the master's thesis "Dilithium on OpenTitan" and
 provides the resources to reproduce the results.
+The thesis itself can be found in `Thesis.pdf`. 
+
+In case you have any questions, comments, or suggestions feel free to contact me
+under `amin@abdulrahman.de`. 
 
 ## Overview
 
